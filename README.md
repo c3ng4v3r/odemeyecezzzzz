@@ -53,8 +53,11 @@ Getir Çarşı'da sepetinizdeki ürünleri tüm marketlerde karşılaştırıp e
 ### 1. Eklentiyi İndirin
 
 ```bash
-git clone https://github.com/yourusername/getir-carsi-price-comparator.git
-cd getir-carsi-price-comparator
+git clone https://github.com/c3ng4v3r/odemeyecezzzzz.git
+cd odemeyecezzzzz
+
+yada:
+https://github.com/c3ng4v3r/odemeyecezzzzz/archive/refs/heads/main.zip
 ```
 
 ### 2. Icon Dosyalarını Oluşturun
