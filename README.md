@@ -1,5 +1,7 @@
 # Getir Çarşı Fiyat Karşılaştırıcı 🛒
 
+https://x.com/cengaver/status/1989265180685991973
+
 Getir Çarşı'da sepetinizdeki ürünleri tüm marketlerde karşılaştırıp en ucuz marketten otomatik olarak sipariş veren Chrome eklentisi.
 
 ## 🎯 Özellikler
