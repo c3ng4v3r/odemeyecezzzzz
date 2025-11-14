@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Getir Çarşı Fiyat Karşılaştırıcı",
+  "version": "1.5.1",
+  "description": "Sepetinizdeki ürünleri tüm marketlerde karşılaştırıp en ucuzunu bulur",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "cookies",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://getir.com/*",
+    "https://*.getirapi.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://getir.com/carsi/sepet/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
+

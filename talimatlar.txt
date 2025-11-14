@@ -1,0 +1,17 @@
+Getir çarşı için bir chrome eklentisi geliştirmek istiyorum.
+
+Amac sepete eklediğim ürünleri tüm marketlerde arayıp sepet tutarı en az olan marketten tüm ürünleri sepete eklemek.
+
+Şöyle çalışır:
+- Kullanıcı herhangi bir marketten ürünleri sepete ekler.
+- https://getir.com/carsi/sepet/ adresine gider (sepeti görüntüleme)
+- Eklentiye basar.
+- Eklenti sayfada önüne bir kare açar diğer markettlerde arama yaptığını söyler (Market ismi ve Resmi eklenir.)
+- Eklenti tüm marketlerde mevcut sepet ile tam uyuşan ürünleri (tam ad ve gram konrolü) sanal bir sepete ekleyip en ucuz olan marketi seçer.
+- Eklenti mevcut sepeti sıfırlar
+- En ucuz sepet tutarına sahip marketin ürünlerini septe ekler.
+- % kaç daha ucuz eski yeni fiyat gibi bilgileri "Ödemeye Geç" butonun altına ekler.
+
+
+- İlk istek @sepeti_goruntule_ve_accesstoken_al.requets olduğu için isteği credantials true olacak şekilde yapsın ve responsede "accessToken" döndürecektir.
+X_access_token kullanan isteklerde bu accessToken kullan diğerlerinde credantials true olacak şekilde istek yapabilirsin.

@@ -1,0 +1,19 @@
+# Chrome Extension
+*.pem
+*.crx
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Node modules (if you add build tools later)
+node_modules/
+
